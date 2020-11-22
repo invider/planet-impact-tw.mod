@@ -31,6 +31,7 @@ function fire() {
         y: this.originY,
         dx: this.dx,
         dy: -1,
+        r: 20 + RND(30),
         speed: 100 * energy,
     })
 }
